@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_info_activity"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <Button
+        android:id="@+id/btn_new_zametka"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_new_zametka"
+        android:shadowColor="#A8A8A8"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="540dp"
+        android:shadowRadius="5"
+        android:text="+"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btn_add_new_zametka"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_info"
+        android:shadowColor="#A8A8A8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="540dp"
+        android:shadowRadius="5"
+        android:text="OK"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_delete"
+        android:shadowColor="#A8A8A8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="540dp"
+        android:shadowRadius="5"
+        android:text="Удалить"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/edit_text_zametka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_info_activity"
+        android:layout_margin="5dp"
+        android:inputType="text"
+         />
+
+    <ListView
+        android:id="@+id/list_view_zametki"
+
+        android:layout_width="match_parent"
+        android:layout_below="@+id/edit_text_zametka"
+        android:layout_margin="4dp"
+        android:layout_height="wrap_content" >
+
+    </ListView>
+
+</RelativeLayout>

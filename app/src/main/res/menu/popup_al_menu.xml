@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/al_profile"
+        android:title="Профиля"/>
+    <item
+        android:id="@+id/al_sheet"
+        android:title="Листы"/>
+    <item
+        android:id="@+id/al_pipe"
+        android:title="Трубы"/>
+    <item
+        android:id="@+id/al_box"
+        android:title="Боксы"/>
+
+</menu>

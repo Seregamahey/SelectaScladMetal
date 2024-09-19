@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#040404</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="priem">#0A5FF1</color>
+    <color name="vidacha">#EC1D18</color>
+    <color name="info">#0DE316</color>
+    <color name="gray">#9E9F9E</color>
+    <color name="editor">#CB1BFA</color>
+    <color name="change">#1CD8C5</color>
+    <color name="add_new_pr">#622CC3</color>
+    <color name="zametka">#ECB40D</color>
+</resources>

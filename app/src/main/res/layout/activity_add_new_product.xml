@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddNewProductActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_add_new_product_activity"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <Spinner
+        android:id="@+id/spinner_material"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinner_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_text_param"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="24dp"
+        android:textColorHint="@color/vidacha"
+        android:hint="@string/param" />
+
+    <EditText
+        android:id="@+id/edit_text_article"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/article" />
+
+    <EditText
+        android:id="@+id/edit_text_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/total" />
+
+    <Spinner
+        android:id="@+id/spinner_unit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinner_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_text_indiTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/indiTotal"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_add_pr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить" />
+</LinearLayout>
+

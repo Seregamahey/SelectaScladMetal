@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">SELECTA</string>
+    <string name="name">ИМЯ</string>
+    <string name="phone">ТЕЛЕФОН</string>
+    <string name="in">ВОЙТИ</string>
+    <string name="reg">Зарегестрироваться</string>
+    <string name="input">Введите данные</string>
+    <string name="negative">Отмена</string>
+    <string name="pass">ПАРОЛЬ</string>
+    <string name="login">Email</string>
+    <string name="error_login">Введите Email</string>
+    <string name="error_pass">Введите пароль</string>
+    <string name="ok">Успешно</string>
+    <string name="priem">ПРИНЯТЬ</string>
+    <string name="vidacha">ВЫДАТЬ</string>
+    <string name="editor">ПЕРЕМЕСТИТЬ</string>
+    <string name="info">ИНФО</string>
+    <string name="hi">ПРИВЕТ</string>
+    <string name="alum">Алюминий</string>
+    <string name="sheet">Лист</string>
+    <string name="box">Бокс</string>
+    <string name="pipe">Труба</string>
+    <string name="location">место хранения</string>
+    <string name="name_product">название</string>
+    <string name="param">Параметры</string>
+    <string name="add_location">ДОБАВИТЬ МЕСТО</string>
+    <string name="change_location">переместить</string>
+    <string name="add">Добавить</string>
+    <string name="look_location">ПОСМОТРЕТЬ</string>
+    <string name="alumin">алюминий</string>
+    <string name="met">железо</string>
+    <string name="zink">цинк</string>
+    <string name="nerga">нержа</string>
+    <string name="alumin_profile">Алюминивый профиль</string>
+    <string name="alumin_box">Алюминивый бокс</string>
+    <string name="alumin_pipe">Алюминивая труба</string>
+    <string name="alumin_sheet">Алюминевый лист</string>
+    <string name="gk_metal">Горячекатанная сталь</string>
+    <string name="hk_metal">Холоднокатанная сталь</string>
+    <string name="metal_box">Железный бокс</string>
+    <string name="metal_pipe">Железная труба</string>
+    <string name="add_product">ДОБАВИТЬ ЭЛЕМЕНТ</string>
+    <string name="indiTotal">Длина или вес штуки</string>
+    <string name="article">Артикл</string>
+    <string name="total">Кол-во</string>
+    <string name="help">?</string>
+    <string name="Al">Алюм.</string>
+    <string name="zametki">Заметки</string>
+
+
+</resources>

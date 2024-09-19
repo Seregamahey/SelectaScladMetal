@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "272230592103",
+    "firebase_url": "https://seldatabase-45d89-default-rtdb.firebaseio.com",
+    "project_id": "seldatabase-45d89",
+    "storage_bucket": "seldatabase-45d89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272230592103:android:33b6570b563e2468886ec2",
+        "android_client_info": {
+          "package_name": "com.example.createproductapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHgx0N3Z3vk1zB0dt3gKhcyXDmanP27_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272230592103:android:bac10fd79191162f886ec2",
+        "android_client_info": {
+          "package_name": "com.example.selectamaster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHgx0N3Z3vk1zB0dt3gKhcyXDmanP27_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272230592103:android:43e0b778bac530e2886ec2",
+        "android_client_info": {
+          "package_name": "com.example.selectametalsclad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHgx0N3Z3vk1zB0dt3gKhcyXDmanP27_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272230592103:android:1df8a5388e42f853886ec2",
+        "android_client_info": {
+          "package_name": "com.example.selectaoperator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHgx0N3Z3vk1zB0dt3gKhcyXDmanP27_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272230592103:android:887216a8116df7f6886ec2",
+        "android_client_info": {
+          "package_name": "com.example.selectasclad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHgx0N3Z3vk1zB0dt3gKhcyXDmanP27_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_menu_activity"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+    <LinearLayout
+        android:id="@+id/liner_layout"
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/toolbar_menu_activity"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_al_menu_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/btn_alumin"
+            android:text="@string/Al" />
+
+        <Button
+            android:id="@+id/btn_met_menu_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/btn_met"
+
+            android:text="@string/met" />
+
+        <Button
+            android:id="@+id/btn_zink_menu_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_zink"
+            android:text="@string/zink" />
+        <Button
+            android:id="@+id/btn_nerga_menu_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_nerga"
+            android:text="@string/nerga" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/text_view_select_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/liner_layout"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <ListView
+        android:id="@+id/list_material_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_select_product"
+        android:layout_marginTop="16dp"/>
+
+
+</RelativeLayout>
